@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.player{
+    height: 384px;
+    width: 512px;
+    background-color: black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+.banner{
+    background-color: rgb(92, 92, 92);
+    flex:1;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+}
+.banner i{
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.video{
+    display: flex;
+    flex:8;
+    background-image: url(christian-buehner-Spa5VztT6_8-unsplash.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+.controls{
+    display: flex;
+    flex:1.5;
+    flex-direction: row;
+    align-items: center;
+}
+.controls section{
+    height: 100%;
+    width: 15%;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.controls section:hover{
+    background-color: tomato;
+}
